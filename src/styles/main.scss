@@ -2,8 +2,68 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../styles/Images/tama-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#top {
+  display: flex; 
+  justify-content: center;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+}
+
+#play-btn {
+  margin-top: 12.8em;
+  margin-left: 8.5em;
+  background-color: lightblue;
+  color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+}
+
+#eat-btn {
+  margin-top: 25em;
+  margin-left: 2em;
+  background-color: lightgoldenrodyellow;
+  color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+}
+
+#fight-btn {
+  margin-top: 25em;
+  margin-left: 3.6em;
+  background-color: lightgoldenrodyellow;
+  color: darkorchid;
+  margin-right: 4px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+  
+
+}
+
+#sleep-btn {
+  margin-top: 25em;
+  margin-left: 3em;
+  background-color: lightgoldenrodyellow;
+  color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
 }
