@@ -2,9 +2,60 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-image: url(../styles/Images/tom-wallpaper1.jpg);
-  background-color: darkmagenta;
-  color: white;
-  text-align: center;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../styles/Images/tama-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#top {
+  display: flex; 
+  justify-content: center;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+}
+
+#play-btn {
+  margin-top: 12.6em;
+  margin-left: 8.5em;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: darkorchid;
+}
+
+#eat-btn {
+  margin-top: 24.6em;
+  margin-left: 2em;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+  color: darkorchid;
+}
+
+#fight-btn {
+  margin-top: 24.6em;
+  margin-left: 3.6em;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+  color: darkorchid;
+  margin-right: 4px;
+  
+
+}
+
+#sleep-btn {
+  margin-top: 24.6em;
+  margin-left: 3em;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+  color: darkorchid;
 }
