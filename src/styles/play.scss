@@ -7,15 +7,10 @@
   height: 20em;
   background-color: rgb(62, 186, 243);
   border-radius: 2em;
-  text-align: center;
-  margin-top: 10em;
+  margin-top: 5em;
+  padding: 2em;
 }
 
-
-#play-btn {
-  background-color: lightblue;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
+#play-btn-container {
+  margin-top: 2em;
 }

@@ -6,15 +6,10 @@
   height: 20em;
   background-color: rgb(250, 169, 94);
   border-radius: 2em;
-  text-align: center;
   margin-top: 10em;
+  padding: 2em;
 }
 
-
-#sleep-btn {
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
+#sleep-btn-container {
+  margin-top: 2em;
 }

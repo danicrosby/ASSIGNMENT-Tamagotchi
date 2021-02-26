@@ -6,14 +6,10 @@
   height: 20em;
   background-color: rgb(136, 255, 0);
   border-radius: 2em;
-  text-align: center;
   margin-top: 10em;
+  padding: 2em;
 }
 
-#fight-btn {
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
+#fight-btn-container {
+  margin-top: 2em;
 }

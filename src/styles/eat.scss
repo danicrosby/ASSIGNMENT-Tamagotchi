@@ -6,15 +6,19 @@
   height: 20em;
   background-color: rgb(240, 26, 240);
   border-radius: 2em;
-  text-align: center;
-  margin-top: 10em;
+  margin-top: 5em;
+  padding: 2em;
   
 }
 
-#eat-btn {
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
+#eat-btn-container {
+  margin-top: 2em;
 }
+
+ #eat-healthy-btn {
+
+ }
+
+ #eat-unhealthy-btn {
+   
+ }

@@ -36,26 +36,3 @@ body {
   align-items: flex-end;
   width: 45em;
 }
-
-#btn-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 20em;
-  width: 25em;
-  height: 30em;
-}
-
-#top {
-  display: flex; 
-  justify-content: center;
-  margin-left: 1.8em;
-}
-
-#bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 35em;
-  margin-left: 2.5em;
-  width: 22em;
-}
