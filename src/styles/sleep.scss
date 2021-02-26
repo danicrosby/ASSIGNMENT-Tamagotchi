@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+#sleep {
+  width: 20em;
+  height: 20em;
+  background-color: rgb(255, 135, 23);
+  border-radius: 2em;
+  margin-top: 5em;
+  padding: 2em;
+}
+
+#sleep-btn-container {
+  margin-top: 2em;
+}

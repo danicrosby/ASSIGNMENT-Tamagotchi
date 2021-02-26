@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+#fight {
+  width: 20em;
+  height: 20em;
+  background-color: rgb(40, 243, 33);
+  border-radius: 2em;
+  margin-top: 5em;
+  padding: 2em;
+}
+
+#fight-btn-container {
+  margin-top: 2em;
+}
