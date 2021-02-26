@@ -2,7 +2,19 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 #sleep {
-  width: 15em;
-  height: 15em;
-  background-color: blue;
+  width: 20em;
+  height: 20em;
+  background-color: rgb(250, 169, 94);
+  border-radius: 2em;
+  text-align: center;
+  margin-top: 10em;
+}
+
+
+#sleep-btn {
+  background-color: lightgoldenrodyellow;
+  color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
 }

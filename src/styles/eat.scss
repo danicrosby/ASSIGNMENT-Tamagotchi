@@ -2,7 +2,19 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 #eat {
-  width: 15em;
-  height: 15em;
-  background-color: green;
+  width: 20em;
+  height: 20em;
+  background-color: rgb(240, 26, 240);
+  border-radius: 2em;
+  text-align: center;
+  margin-top: 10em;
+  
+}
+
+#eat-btn {
+  background-color: lightgoldenrodyellow;
+  color: darkorchid;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
 }
