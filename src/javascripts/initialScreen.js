@@ -1,4 +1,4 @@
-import renderToDom from './helpers.js/renderToDom';
+import renderToDom from './helpers/renderToDom';
 
 const initialScreen = () => {
   let domString = '';

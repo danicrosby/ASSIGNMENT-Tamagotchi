@@ -1,19 +1,6 @@
-import renderToDom from './helpers.js/renderToDom';
+import renderToDom from './helpers/renderToDom';
 
 let full = 100;
-
-const eatCard = () => {
-  let domString = '';
-  domString += `
-    <div id="eat-name"><h3>Name: EAT</h3></div>
-    <div id="fullness-score">Fullness Score: <b>${full}</b></div>
-    <div id="eat-btn-container">
-      <button type="button" class="btn btn-light" id="eat-healthy-btn">Healthy</button>
-      <button type="button" class="btn btn-dark" id="eat-unhealthy-btn">Unhealthy</button>
-    </div>`;
-
-  renderToDom('#eat', domString);
-};
 
 const feedHealthyFood = (e) => {
   e.preventDefault();
@@ -26,9 +13,24 @@ const feedHealthyFood = (e) => {
 const feedUnHealthyFood = (e) => {
   e.preventDefault();
   full -= 3;
-  if (full < 0) {
-    full = 100;
+  if (full <= 0) {
+    full = 'death';
   }
 };
 
-export { eatCard, feedHealthyFood, feedUnHealthyFood };
+const eatCard = () => {
+  let domString = '';
+  domString += `
+    <div id="eat-name"><h3>Name: EAT</h3></div>
+    <div id="fullness-score">Fullness Score: <b>${full}</b></div>
+    <div id="eat-btn-container">
+      <button type="button" class="btn btn-light" id="eat-healthy-btn">Healthy</button>
+      <button type="button" class="btn btn-dark" id="eat-unhealthy-btn">Unhealthy</button>
+    </div>`;
+
+  renderToDom('#eat', domString);
+  document.querySelector('#eat-healthy-btn').addEventListener('click', feedHealthyFood);
+  document.querySelector('#eat-unhealthy-btn').addEventListener('click', feedUnHealthyFood);
+};
+
+export default eatCard;
