@@ -1,6 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+@import "./eat.scss";
+@import "./fight.scss";
+@import "./play.scss";
+@import "./sleep.scss";
+
+
 body {
   display: flex;
   justify-content: center;
@@ -9,61 +15,60 @@ body {
   background-size: 100%;
 }
 
-#btn-container {
+#quad-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+}
+
+#left-row {
+  display: flex;
   flex-direction: column;
 }
 
-#top {
-  display: flex; 
-  justify-content: center;
-}
-
-#bottom {
+#right-row {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
-#play-btn {
-  margin-top: 12.8em;
-  margin-left: 8.5em;
-  background-color: lightblue;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
-}
 
-#eat-btn {
-  margin-top: 25em;
-  margin-left: 2em;
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
-}
 
-#fight-btn {
-  margin-top: 25em;
-  margin-left: 3.6em;
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  margin-right: 4px;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
-  
+// #btn-container {
+//   display: flex;
+//   flex-direction: column;
 
-}
+// }
 
-#sleep-btn {
-  margin-top: 25em;
-  margin-left: 3em;
-  background-color: lightgoldenrodyellow;
-  color: darkorchid;
-  border-radius: 10px;
-  border: none;
-  font-weight: bolder;
-}
+// #top {
+//   display: flex; 
+//   justify-content: center;
+//   margin-left: 10em;
+//   position: absolute;
+
+// }
+
+// #bottom {
+//   display: flex;
+//   justify-content: space-around;
+//   width: 28em;
+//   margin-left: 2.5em;
+
+// }
+
+// #play-btn {
+//   background-color: lightblue;
+//   color: darkorchid;
+//   border-radius: 10px;
+//   border: none;
+//   font-weight: bolder;
+//   margin-top: 17.5em;
+//   margin-left: 14.3em;
+// }
+
+// #eat-btn, #fight-btn, #sleep-btn {
+//   background-color: lightgoldenrodyellow;
+//   color: darkorchid;
+//   border-radius: 10px;
+//   border: none;
+//   font-weight: bolder;
+//   margin-top: 33.5em;
+// }
