@@ -27,7 +27,7 @@ const ensueViolence = (e) => {
 const fightCard = () => {
   let domString = '';
   domString += `
-    <div id="fight-name"><h3>Name: FIGHT</h3></div>
+    <div id="fight-name"><h2>FIGHT</h2></div>
     <div id="strength-score">Strength Score: <b><span id="strength-value">${strength}</span></div>
     <div id="fight-btn-container">
       <button type="button" class="btn btn-light" id="run-btn">Run!</button>
