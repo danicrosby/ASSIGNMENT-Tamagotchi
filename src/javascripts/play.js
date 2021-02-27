@@ -2,7 +2,7 @@ import renderToDom from './helpers/renderToDom';
 
 let fun = 50;
 
-const updatefunnessScore = () => {
+const updateFunScore = () => {
   document.querySelector('#fun-value').innerHTML = `${fun}`;
 };
 
@@ -12,7 +12,7 @@ const superFunActivity = (e) => {
   if (fun > 100) {
     fun = 100;
   }
-  updatefunnessScore();
+  updateFunScore();
 };
 
 const slightlyFunActivity = (e) => {
@@ -21,7 +21,7 @@ const slightlyFunActivity = (e) => {
   if (fun > 100) {
     fun = 100;
   }
-  updatefunnessScore();
+  updateFunScore();
 };
 
 const playCard = () => {
