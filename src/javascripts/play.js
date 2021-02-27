@@ -27,7 +27,7 @@ const slightlyFunActivity = (e) => {
 const playCard = () => {
   let domString = '';
   domString += `
-    <div id="play-name"><h3>Name: PLAY</h3></div>
+    <div id="play-name"><h2>PLAY</h2></div>
     <div id="fun-score">Fun Score: <b><span id="fun-value">${fun}</span></div>
     <div id="play-btn-container">
       <button type="button" class="btn btn-light" id="super-fun-btn">Super Fun!</button>

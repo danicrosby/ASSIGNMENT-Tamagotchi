@@ -3,7 +3,7 @@ import renderToDom from './helpers/renderToDom';
 let full = 100;
 
 const updateFullnessScore = () => {
-  document.querySelector('#fullness-value').innerHTML = `${full}`;
+  document.querySelector('#full-value').innerHTML = `${full}`;
 };
 
 const feedHealthyFood = (e) => {
@@ -27,8 +27,8 @@ const feedUnHealthyFood = (e) => {
 const eatCard = () => {
   let domString = '';
   domString += `
-    <div id="eat-name"><h3>Name: EAT</h3></div>
-    <div id="fullness-score">Fullness Score: <b><span id="fullness-value">${full}</span></b></div>
+    <div id="eat-name"><h2>EAT</h2></div>
+    <div id="full-score">Fullness Score: <b><span id="full-value">${full}</span></b></div>
     <div id="eat-btn-container">
       <button type="button" class="btn btn-light" id="eat-healthy-btn">Healthy</button>
       <button type="button" class="btn btn-dark" id="eat-unhealthy-btn">Unhealthy</button>
