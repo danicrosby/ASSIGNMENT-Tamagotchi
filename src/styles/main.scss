@@ -36,3 +36,37 @@ body {
   align-items: flex-end;
   width: 45em;
 }
+
+@media only screen and (max-width: 750px) {
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../styles/Images/tama-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  #quad-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30em;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+  
+  #left-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+  }
+  
+  #right-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

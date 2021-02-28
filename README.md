@@ -1,47 +1,6 @@
 # Tamagotchi
-Remember Tamagotchi's?  They looked something like this:
+Hello, and welcome to my app. I created a simplified version of a Tamagotchi.Tamagotchi was the first "digital virtual pet" that came out in the 90's.  It had three buttons and 8 different menus.  After activating it an egg would hatch and then you would be responsible for keeping your pet alive.  Your pet could do things like eat, sleep, play, get sick, get medicine, and poop.  They sold over 82 million of them before 2017.
 
-![Tamagotchi](./tamagotchi.jpg)
-
-In case you lived under a rock in the 90s a Tamagotchi was the first "digital virtual pet".  It had three buttons and 8 different menus.  After activating it an egg would hatch and then you would be responsible for keeping your pet alive.  Your pet could do things like eat, sleep, play, get sick, get medicine, and poop.  They sold over 82 million of them before 2017.
-
-For this HW we are going to create a simplified version of a Tamagotchi.
-
-If you are worried you version will never be as good as the original you can still buy yourself a real one [HERE](https://www.bandai.com/tamagotchi/)
-
-## Setup
-This project will be built with modules that are laced together with webpack.
-
-To get started run:
-```
-$ sudo npm install
-$ npm start
-```
-
-Follow the instructions from the [Webpack template](https://github.com/nss-nightclass-projects/webpack-template/blob/master/README.md) to ensure you make all the updates to get the project started.
-
-## HTML
-Your index.html file should look like this:
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Tamagotchi</title>
-</head>
-<body>
-  <div id="app">
-    <div id="progress"></div>
-    <div id="eat" class="quad"></div>
-    <div id="play" class="quad"></div>
-    <div id="fight" class="quad"></div>
-    <div id="sleep" class="quad"></div>
-    <div id="pet"></div>
-  </div>
-</body>
-</html>
-```
-You may NOT add any other code to this file.  Any other elements that you want in the dom must use a `domStringBuilder` and `printToDom` functions to appear.
 
 ## General Requirements
 Your code should be:

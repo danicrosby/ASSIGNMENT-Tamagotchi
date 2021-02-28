@@ -22,3 +22,47 @@
  #eat-unhealthy-btn {
    
  }
+
+ @media only screen and (max-width: 750px) {
+  #eat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 14em;
+    height: 14em;
+    background-color: rgb(240, 26, 240);
+    border-radius: 2em;
+    margin: 2em;
+    padding: 1em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  #full-score {
+    text-align: center;
+  }
+
+  #eat-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #eat-healthy-btn {
+    width: 6em;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+
+
+  }
+ 
+  #eat-unhealthy-btn {
+    width: 7em;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+  }
+ }

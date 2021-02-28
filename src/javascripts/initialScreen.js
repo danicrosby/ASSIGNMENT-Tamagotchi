@@ -9,7 +9,6 @@ const initialScreen = () => {
       <div id="eat" class="quad"></div>
       <div id="fight" class="quad"></div>
     </div>
-
     <div id="right-row">
       <div id="play" class="quad"></div>
       <div id="sleep" class="quad"></div>
