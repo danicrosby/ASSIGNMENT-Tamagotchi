@@ -1,7 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-
 #fight {
   width: 20em;
   height: 20em;
@@ -14,3 +13,47 @@
 #fight-btn-container {
   margin-top: 2em;
 }
+
+@media only screen and (max-width: 750px) {
+
+  #fight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 14em;
+    height: 14em;
+    background-color: rgb(40, 243, 33);
+    border-radius: 2em;
+    margin: 2em;
+    padding: 1em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  #strength-score {
+    text-align: center;
+  }
+
+  #fight-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #run-btn {
+    width: 6m;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+  }
+ 
+  #fight-btn {
+    width: 7em;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+  }
+
+ }

@@ -14,3 +14,47 @@
 #play-btn-container {
   margin-top: 2em;
 }
+
+@media only screen and (max-width: 750px) {
+  
+  #play {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 14em;
+    height: 14em;
+    background-color: rgb(62, 186, 243);
+    border-radius: 2em;
+    margin: 2em;
+    padding: 1em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  #fun-score {
+    text-align: center;
+  }
+
+  #play-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #super-fun-btn {
+    width: 6em;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+  }
+ 
+  #slightly-fun-btn {
+    width: 7em;
+    height: 4em;
+    font-size: 10px;
+    margin: 5px;
+  }
+
+ }
