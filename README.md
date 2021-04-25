@@ -25,15 +25,16 @@ The Fight component, located in the lower left quadrant has 2 buttons.  One is f
 The Sleep component, located in the lower right quadrant has 2 buttons.  One is to take a nap and and adds 50 to `energy` when pressed.  The other is for deep slumber and adds 60 to `sleep` when pushed.
 
 
+
 ## Future Goals For This Project Include: 
 
 ### Overall Progress Bar
 The overall health of this Tamagochi should be based on the average of all four attributes (energy, strength, full, fun).
 
-### Attribute Randomizer
+#### Attribute Randomizer
 Make all the buttons increase of decrease based on random number generators.
 
-### Death
+#### Death
 Something should happen when your energy, strength, full, fun, or overall heath goes to 0.
 
 ### Create Module Interactivity
